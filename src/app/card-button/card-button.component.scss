@@ -6,10 +6,15 @@
   padding: 10px;
   border-radius: 10px;
   background-color: white;
+  color: black;
   cursor: pointer;
   transition: 0.5s;
 
   &:hover {
     background-color: rgb(200, 200, 200);
+  }
+
+  &:active {
+    scale: 0.9;
   }
 }

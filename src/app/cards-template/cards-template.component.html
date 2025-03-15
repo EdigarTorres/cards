@@ -1,0 +1,8 @@
+<div class="horizontal">
+  <div class="card" *ngFor="let card of cards">
+    <div class="card_plan card_item">Plano {{ card.plano }}</div>
+    <div class="card_price card_item">R${{ card.preco }},00 / mês</div>
+    <app-card-button></app-card-button>
+    <app-card-button-cancel></app-card-button-cancel>
+  </div>
+</div>

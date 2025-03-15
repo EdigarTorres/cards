@@ -1,0 +1,30 @@
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+
+  .card {
+    margin: 20px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+    &_item {
+      padding: 10px;
+    }
+
+    &_plan {
+      font-size: 20px;
+    }
+
+    &_price {
+      font-weight: 500;
+      font-size: 40px;
+    }
+  }
+}

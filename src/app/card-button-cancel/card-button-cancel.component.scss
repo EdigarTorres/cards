@@ -13,4 +13,8 @@
   &:hover {
     background-color: rgb(200, 0, 0);
   }
+
+  &:active {
+    scale: 0.9;
+  }
 }
