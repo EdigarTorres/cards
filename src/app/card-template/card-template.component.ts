@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-cards-template',
-  templateUrl: './cards-template.component.html',
-  styleUrls: ['./cards-template.component.scss'],
+  selector: 'app-card-template',
+  templateUrl: './card-template.component.html',
+  styleUrls: ['./card-template.component.scss'],
 })
-export class CardsTemplateComponent {
+export class CardTemplateComponent {
   cards = [
     {
       plano: 'Simples',
